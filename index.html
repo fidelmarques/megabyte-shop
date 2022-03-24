@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/reset.css">
+    <link rel="stylesheet" href="./src/style.css">
+
+    <title>Megabyte Shop</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Megabyte Shop</h1>
+        <nav class="nav-container">
+            <ul class="nav-bar">
+                <li id="todos">Todos</li>
+                <li id="sale">SALE</li>
+                <li id="hardware">Hardware</li>
+                <li id="software">Software</li>
+                <li id="perifericos">Periféricos</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="main_grid">
+        </section>
+        <section id="cart_section">
+            <div class="search">
+                <input id="search_box" type="text" placeholder="Digite aqui sua pesquisa">
+                <button id="search_button">Pesquisar</button>
+            </div>
+            <div class="cart_header">
+                <span>Carrinho de compras</span>
+            </div>
+            <div class="cart_content">
+                <p class="cart_emptyMessageTitle">Carrinho vazio</p>
+                <p class="cart_emptyMessageSubtitle">Adicione itens</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/products.js"></script>
+    <script src="./src/script.js"></script>
+</body>
+</html>
