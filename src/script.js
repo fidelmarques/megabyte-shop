@@ -86,7 +86,7 @@ function createCartElements(){
             divTextCart.appendChild(titItemCart);
             const prcItemCart = document.createElement('p');
             prcItemCart.classList.add('item_price');
-            prcItemCart.innerText = `${productsData[i].itemPrice} (x${cartArray[i]}) = R$ ${Math.round((productsData[i].itemPrice.slice(3)*1 * cartArray[i] + Number.EPSILON) * 100) / 100}`;
+            prcItemCart.innerText = `${productsData[i].itemPrice} (x${cartArray[i]}) = R$ ${(productsData[i].itemPrice.slice(3)*1 * cartArray[i]).toFixed(2)}`;
             divTextCart.appendChild(prcItemCart);
 
             const removeItenBttn = document.createElement('button');
@@ -139,8 +139,9 @@ function createCartElements(){
     totalPrice.classList.add('totalPrice');
     let price = 0;
     for(i = 0; i < cartArray.length; i++)
-        price += Math.round((productsData[i].itemPrice.slice(3)*1 * cartArray[i] + Number.EPSILON) * 100) / 100;
-    totalPrice.innerText = `R$ ${Math.round((price + Number.EPSILON) * 100) / 100}`;
+        //price += Math.round((productsData[i].itemPrice.slice(3)*1 * cartArray[i] + Number.EPSILON) * 100) / 100;
+        price += productsData[i].itemPrice.slice(3)*1 * cartArray[i];
+    totalPrice.innerText = `R$ ${price.toFixed(2)}`;
     checkoutValues.appendChild(totalPrice);
 }
 
