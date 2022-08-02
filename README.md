@@ -1,6 +1,6 @@
 # Megabyte Shop
 
-#### Projeto produzido como Capstone do módulo 1 do curso de Desenvolvimento Web Full-Stack da Kenzie Academy Brasil
+#### Projeto produzido como Capstone do M1 do curso de Desenvolvimento Web Full-Stack da Kenzie Academy Brasil
 
 ![image](https://user-images.githubusercontent.com/98785969/181399826-5ada7b05-468d-4043-915d-750c80d5b7df.png)
 
