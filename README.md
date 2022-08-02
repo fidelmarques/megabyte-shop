@@ -1,6 +1,10 @@
 # Megabyte Shop
+Projeto produzido como Capstone do M1 do curso de Desenvolvimento Web Full-Stack da Kenzie Academy Brasil
+### [💻 Tecnologias](#tecnologias)
+ 
+### [📸 Screenshots](#screenshots)
 
-#### Projeto produzido como Capstone do M1 do curso de Desenvolvimento Web Full-Stack da Kenzie Academy Brasil
+### [🏁 Clique aqui para testar!](https://fidelmarques.github.io/megabyte-shop/)
 
 ![image](https://user-images.githubusercontent.com/98785969/181399826-5ada7b05-468d-4043-915d-750c80d5b7df.png)
 
